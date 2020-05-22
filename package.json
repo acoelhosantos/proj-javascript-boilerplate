@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "format": "prettier --write src/",
     "build": "babel src -d build",
     "test": "jest"
   },
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6"
+    "@babel/preset-env": "^7.9.6",
+    "prettier": "^2.0.5"
   }
 }
