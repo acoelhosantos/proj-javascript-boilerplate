@@ -1,0 +1,33 @@
+{
+  "name": "proj-javascript-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate/template project structure.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acoelhosantos/proj-javascript-boilerplate.git"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "jest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acoelhosantos/proj-javascript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/acoelhosantos/proj-javascript-boilerplate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
+  }
+}
