@@ -7,3 +7,7 @@ export const func1 = () => {
 export const func2 = (nr = 0) => {
   console.log(nr);
 };
+
+export const func3 = (input) => {
+  return input;
+};
