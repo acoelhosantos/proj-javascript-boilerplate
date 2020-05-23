@@ -6,10 +6,14 @@
   "directories": {
     "test": "test"
   },
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "scripts": {
     "format": "prettier --write src/",
-    "build": "babel src -d build",
-    "test": "jest"
+    "build": "babel src -d build/src",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",

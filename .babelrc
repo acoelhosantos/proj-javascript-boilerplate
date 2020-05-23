@@ -1,8 +1,10 @@
 {
   "presets": ["@babel/preset-env"],
-  "sourceMaps": true,
+  "sourceMaps": "both",
+  "retainLines": true,
   "plugins": [
     "@babel/plugin-transform-runtime",
     "@babel/plugin-proposal-class-properties"
-  ]
+  ],
+  "minified": true
 }
